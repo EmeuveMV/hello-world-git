@@ -15,3 +15,39 @@
 
 </body>
 </html>
+
+<!-- Los tags son señalizadores  sirve básicamente 
+    como una rama firmada que no permuta, 
+    es decir, siempre se mantiene inalterable. 
+    Sencillamente es una cadena arbitraria que apunta 
+    a un commit específico. Puede decirse que un tag 
+    es un nombre que puedes usar para marcar 
+    un punto específico en la historia de un repositorio.-->
+
+    <!-- v1.0.0 el primer digito es major version, cambia el programa
+    completo con funcionalidades diferentes y eso, el segundo digito es 
+    es el minor version este hace cambios que no son disruptivos
+    como son la interface grafica y eso o funcionalidad especifica, entonces
+    la ultima es un patch, una funcionalidad muy particular.-->
+
+    <!-- GIT FLOW -->
+
+    <!-- Features -->
+
+    <!-- Features son ramas que salen de develop para probar
+    o crear funcionalidades aparte que luego se hacen merge (cerrandola)
+    con la rama/branch de develop.-->
+
+    <!-- Release -->
+
+    <!-- Los release son otras ramas que salen del develop,
+    son la ultima instancia para probar antes de mandar a produccion,
+    estos generan tags automaticamente. -->
+
+    <!-- HotFix -->
+
+    <!-- Los Hotfix son ramas que salen de master/main una vez
+    estando en produccion ya que el usuario final encuentra algun
+    bug, en esta rama se hace el bugfix y tiene que trabajarse 
+    de inmediato porque es prioridad, se ataca directamente el 
+    problema en produccion, no se puede volver al release.-->
